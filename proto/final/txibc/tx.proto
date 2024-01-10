@@ -1,0 +1,7 @@
+syntax = "proto3";
+package final.txibc;
+
+option go_package = "final/x/txibc/types";
+
+// Msg defines the Msg service.
+service Msg {}

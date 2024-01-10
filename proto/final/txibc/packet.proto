@@ -1,0 +1,13 @@
+syntax = "proto3";
+package final.txibc;
+
+option go_package = "final/x/txibc/types";
+
+message TxibcPacketData {
+    oneof packet {
+        NoData noData = 1;
+    }
+}
+
+message NoData {
+}
